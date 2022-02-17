@@ -1,0 +1,54 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color: rgba(29, 13, 0, 0.789);
+  background-image: url('/imgs/granos-y-madera.jpg');
+  background-size: 100%;
+  margin-bottom: 1rem;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+}
+
+nav.sticky-top {
+  background-color: rgba(0, 89, 50, 0.568);
+  font-weight: 300;
+}
+
+nav>ul {
+  flex-grow: 1;
+  padding: .5rem;
+  font-weight: 700;
+  background-color: rgba(56, 25, 0, 0.596);
+}
+
+nav>a.navbar-brand {
+
+  padding: .5rem;
+  font-size: 30px;
+  color: white;
+  background-color: rgba(0, 89, 50, 0.576);
+}
+
+li>a.nav-link {
+  border-radius: 15%;
+  border: 1px solid teal;
+  margin-inline: 1rem;
+  text-align: right;
+  color: rgb(9, 189, 111);
+  background-color: rgba(51, 23, 0, 0.719);
+}
+
+#carouselExampleFade{
+  width: 80vw;
+}
+
+.carousel-item>img{
+  height: 88vh;
+}
+
+/* productos */
+
+div.product-row{
+  background-color: rgba(0, 89, 50, 0.568);
+}
