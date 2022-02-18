@@ -2,15 +2,13 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color: rgba(29, 13, 0, 0.789);
   background-image: url('/imgs/granos-y-madera.jpg');
   background-size: 100%;
+  background-blend-mode: soft-light;
   margin-bottom: 1rem;
 }
 
-nav {
-  margin: 0;
-  padding: 0;
-}
-
 nav.sticky-top {
+  margin-bottom: 1rem;
+  font-size: 20px;
   background-color: rgba(0, 89, 50, 0.568);
   font-weight: 300;
 }
@@ -19,15 +17,19 @@ nav>ul {
   flex-grow: 1;
   padding: .5rem;
   font-weight: 700;
-  background-color: rgba(56, 25, 0, 0.596);
+  background-color: rgba(56, 25, 0, 0.446);
 }
 
-nav>a.navbar-brand {
 
-  padding: .5rem;
+
+nav a.navbar-brand {
+  stroke: blue;
+  border-radius: 20%;
+  padding: .7rem;
   font-size: 30px;
-  color: white;
-  background-color: rgba(0, 89, 50, 0.576);
+  font-weight: 400;
+  color: rgb(39, 17, 1);
+  background-color: rgba(0, 104, 59, 0.659);
 }
 
 li>a.nav-link {
@@ -37,6 +39,10 @@ li>a.nav-link {
   text-align: right;
   color: rgb(9, 189, 111);
   background-color: rgba(51, 23, 0, 0.719);
+}
+
+ul.d-flex>li{
+  background-color: rgba(255, 255, 255, 0.384);
 }
 
 #carouselExampleFade{
@@ -49,6 +55,21 @@ li>a.nav-link {
 
 /* productos */
 
-div.product-row{
-  background-color: rgba(0, 89, 50, 0.568);
+div.productos{
+  background-color: rgba(2, 68, 39, 0.275);
+  border: 5px solid black;
+  border-radius: 2%;
+}
+
+.productos h1{
+  border: 2px solid black;
+  border-radius: 10%;
+  
+  font-size: 45px;
+  color: white;
+  font-weight: 700;
+  margin: 1rem;
+  padding: 1.5rem;
+  padding-bottom: 1rem;
+  background-color: rgba(0, 51, 28, 0.445);
 }
